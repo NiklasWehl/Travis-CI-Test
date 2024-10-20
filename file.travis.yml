@@ -1,0 +1,7 @@
+language: python
+python:
+  - "3.8"  # Welche Python-Version soll verwendet werden
+install:
+  - pip install -r requirements.txt  # Abhängigkeiten installieren
+script:
+  - pytest  # Tests ausführen
